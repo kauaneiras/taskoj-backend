@@ -1,0 +1,28 @@
+{
+  "name": "taskoj-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Taskoj é um projeto pessoal onde é possível registrar atividades semanais e marca-las quando forem concluidas. O Taskoj possui um sistema de cadastro e login. Seu banco de dados foi desenvolvida com NodeJS, Express e o  MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kauaneiras/taskoj-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kauaneiras/taskoj-backend/issues"
+  },
+  "homepage": "https://github.com/kauaneiras/taskoj-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.6",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
